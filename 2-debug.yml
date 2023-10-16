@@ -1,8 +1,0 @@
----
-- name: my first module with ansible
-  hosts: all 
-  task:
-  - name: my first task
-    debug: 
-      msg: "Hello Yash"
-...
