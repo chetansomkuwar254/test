@@ -6,4 +6,14 @@
   - name: my first task
     debug: 
       msg: "Hello Yash"
+  - name: my first task
+    debug:
+      msg: "Hello Salman"
+  - name: my first task
+    debug:
+      msg: "Hello Tiger"
+  - name: my first task
+    debug:
+      msg: "Hello Suraj"
 ...
+

@@ -1,0 +1,11 @@
+---
+- name: variable playbook
+  hosts: all
+  vars:
+    URL: "www.global-variable.com"
+  tasks:
+
+    - name: print my message through vriable
+      debug: 
+         msg: "{{ URL }}"
+...
